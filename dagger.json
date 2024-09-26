@@ -1,0 +1,13 @@
+{
+  "name": "flipt",
+  "sdk": "go",
+  "exclude": [".git", "bin", "ui/node_modules"],
+  "source": "build",
+  "engineVersion": "v0.12.3",
+  "views": [
+    {
+      "name": "default",
+      "patterns": ["!.git", "!**/node_modules"]
+    }
+  ]
+}
